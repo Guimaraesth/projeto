@@ -1,0 +1,141 @@
+
+@font-face {
+    font-family: 'android';
+    src: url('./fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root{
+--cor1: #CEF5D7;
+--cor2: #5AA86D ;
+--cor3: #30593A ;
+--font-especial: 'android', arial ,sans-serif ;
+--font-normaal: 'Bebas Neue', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    margin: 0px;
+    text-align: center;
+    background-color: #6CE17E;
+}
+header{
+background-image: linear-gradient( to top,#30593A,#5AA86D,#84F5A0);
+text-align: center;
+height: 250px;
+
+ color: var(--cor1);
+ 
+}
+nav{
+    text-align: left;
+    color: var(--cor1);
+    margin-top: -36px;
+    padding: 9px;
+    background-color: var(--cor3);
+}
+main{
+    text-align: center;
+ 
+    background-color: aliceblue;
+    margin-top: -20px;
+    margin: auto;
+    border: 0px;
+   
+    font-family: var(--font-normaal);
+    min-width: 320px;
+    max-width: 800px;
+}
+
+ article{
+    padding-left: 20px;
+    padding-right: 10px;   
+    
+}
+aside{
+    text-align: left;
+    font-family: var(--font-normaal);
+    background-color: var(--cor2);
+    border-radius: 10px;
+    padding: 10px;
+}
+aside > ul {
+list-style-position: inside;
+list-style-type: '\2714\00A0\00A0';
+columns: 2;
+}
+footer{
+    background-color: #30593A;
+    color: var(--cor1);
+    font-family: var(--font-normaal);
+}
+h1{
+    text-align: center;
+    font-family: var(--font-especial);
+}
+h2{
+    text-align: center;
+    font-family: var(--font-especial);
+    font-size: 20px;
+    margin: 10px;
+}
+p{
+    text-align: left;
+    font-family: var(--font-normaal);
+    margin: 15px 0px;
+text-align: justify;
+text-indent: 30px;
+line-height: 1em;
+}
+
+.imgs {
+    text-align: center;
+    width: 100%;
+    padding-top: -20px;
+    border: 10px;
+}
+
+a{
+    color: var(--cor1);
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration :none; 
+    margin: 0px;  
+}
+a:hover{
+    background-color: #23b848b6;
+}
+
+br{
+    text-align: center;
+}
+#sub{padding-top: 46px;
+    font-size: 19px;
+    margin-top: -34px;
+}
+
+
+header > h1 {
+    padding-top: 34px;
+}
+ .video{
+    margin: 0px -20px 30px  -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+ }
+
+ .video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+ }
